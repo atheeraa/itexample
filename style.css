@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    height:150%;
+}
+
+#logo{
+    color:white;
+margin-top: 15%;
+font-size: 30pt;
+font-family: "Poiret One";
+}
+#logo:hover{
+    
+text-shadow: 10px 10px 10px #646565;
+}
+
+.painting {
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity:0.5;
+}
+.field{
+    position: relative;
+    top:10%;
+}
+
+.frame
+{   
+    width:700px;
+    height:700px;
+    position: absolute;
+}
+.fullpainting{
+    z-index: -1;
+    margin-left:11%;
+    margin-top:11%;
+      position:relative;
+         width:400px;
+    height:400px;
+
+}
+
+
+	.captionFull {
+			text-align: left;
+			font-family: "Poiret One";
+            font-size:15pt;
+			color: white;
+            width:35%;
+            top:50%;;
+            left:53%;
+            position:absolute;
+		}
+
+.painting:hover{
+    opacity:1;
+}
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:gray;
+}
